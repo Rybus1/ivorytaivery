@@ -1,0 +1,25 @@
+// @import './core.scss';
+@import "utils/fonts";
+@import "modules/partials/base";
+@import "modules/partials/typography";
+@import "modules/buttons/buttons";
+@import "modules/header/header";
+@import "modules/footer/footer";
+@import "modules/partials/popup";
+@import "modules/partials/preloader";
+// @import "modules/partials/animations";
+// @import "blocks/block-breadcrumbs";
+// @import "libs/animate.scss";
+// @import "../../../node_modules/animate-scss/animate.scss";
+
+html {
+    background: #F2F5F3;
+}
+
+.otgs-development-site-front-end {
+    display: none;
+}
+
+#wpadminbar {
+    // display: none;
+}

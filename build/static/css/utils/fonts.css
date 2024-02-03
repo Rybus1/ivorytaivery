@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Graphie";
+  src: url("../fonts/Graphie-Regular.woff") format("woff"), url("../fonts/Graphie-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Graphie";
+  src: url("../fonts/Graphie-Light.woff") format("woff"), url("../fonts/Graphie-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Graphie";
+  src: url("../fonts/Graphie-BookItalic.woff") format("woff"), url("../fonts/Graphie-BookItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 350;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../fonts/InterTight-Light.woff") format("woff"), url("../fonts/InterTight-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../fonts/InterTight-Regular.woff") format("woff"), url("../fonts/InterTight-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../fonts/InterTight-SemiBold.woff") format("woff"), url("../fonts/InterTight-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}

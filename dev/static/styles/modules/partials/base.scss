@@ -1,0 +1,201 @@
+@import '../../core.scss';
+
+html {
+  // MAIN REM VALUE
+  // font-size: 10px;
+  margin: 0;
+  scroll-behavior: smooth;
+  // background-color: $light-grey;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-style: normal;
+  background-origin: border-box !important;
+}
+
+* {
+  position: relative;
+}
+
+body {
+  // background-color: $white;
+
+  @media (prefers-color-scheme: dark) {
+    // background-color: $white;
+  }
+
+  &.noscroll {
+    height: 100vh;
+    overflow: hidden;
+  }
+}
+
+main {
+  // color: $black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img,
+video {
+  object-fit: cover;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+input {
+  appearance: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: inherit;
+}
+
+#shadow-host-companion {
+  display: none;
+}
+
+.dnone {
+  display: none !important;
+}
+
+.otgs-development-site-front-end {
+  display: none !important;
+}
+
+section {
+  // overflow: hidden;
+  z-index: 1;
+  // padding: 56px 0;
+  margin: 104px 0;
+
+  @media (min-width: $sm-tablet) {
+    margin: 124px 0;
+    // padding: 64px 0;
+  }
+
+  @media (min-width: $sm-pc) {
+    margin: 128px 0;
+    // padding: 72px 0;
+  }
+
+  @media (min-width: $full-hd) {
+    // padding: 96px 0;
+    margin: 140px 0;
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.visually-hidden,
+.screen-reader-response {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.mobile-only {
+  @media (min-width: 1024px) {
+    display: none !important;
+  }
+}
+
+.pc-only {
+  @media (max-width: 1023px) {
+    display: none !important;
+  }
+}
+
+.side-padding-container {
+  width: 100%;
+  padding: 0 $mob-pad;
+  position: relative;
+
+  @media (min-width: $sm-tablet) {
+    padding: 0 $tab-pad;
+  }
+
+  @media (min-width: $sm-pc) {
+    padding: 0 $lap-pad;
+  }
+
+  @media (min-width: $full-hd) {
+    padding: 0 $hd-pad;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: clip;
+  }
+}
+
+.main-wrap {
+  margin: 76px 0 0;
+  overflow-x: clip;
+
+  @media (min-width: $sm-tablet) {
+    margin: 88px 0 0;
+  }
+
+  @media (min-width: $sm-pc) {
+    margin: 64px 0 0;
+  }
+
+  @media (min-width: $full-hd) {
+    margin: 91px 0 0;
+  }
+}
+
+
+// .splide__track {
+//   overflow: visible !important;
+// }
+
+// LENIS
+
+// html.lenis {
+//   height: auto;
+// }
+
+// .lenis.lenis-smooth {
+//   scroll-behavior: auto !important;
+// }
+
+// .lenis.lenis-smooth [data-lenis-prevent] {
+//   overscroll-behavior: contain;
+// }
+
+// .lenis.lenis-stopped {
+//   overflow: hidden;
+// }
+
+// .lenis.lenis-scrolling iframe {
+//   pointer-events: none;
+// }

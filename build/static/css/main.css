@@ -1,0 +1,227 @@
+@font-face {
+  font-family: "Graphie";
+  src: url("../fonts/Graphie-Regular.woff") format("woff"), url("../fonts/Graphie-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Graphie";
+  src: url("../fonts/Graphie-Light.woff") format("woff"), url("../fonts/Graphie-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Graphie";
+  src: url("../fonts/Graphie-BookItalic.woff") format("woff"), url("../fonts/Graphie-BookItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 350;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../fonts/InterTight-Light.woff") format("woff"), url("../fonts/InterTight-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../fonts/InterTight-Regular.woff") format("woff"), url("../fonts/InterTight-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url("../fonts/InterTight-SemiBold.woff") format("woff"), url("../fonts/InterTight-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+html {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-style: normal;
+  background-origin: border-box !important;
+}
+
+* {
+  position: relative;
+}
+
+body.noscroll {
+  height: 100vh;
+  overflow: hidden;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img,
+video {
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: inherit;
+}
+
+#shadow-host-companion {
+  display: none;
+}
+
+.dnone {
+  display: none !important;
+}
+
+.otgs-development-site-front-end {
+  display: none !important;
+}
+
+section {
+  z-index: 1;
+  margin: 104px 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.visually-hidden,
+.screen-reader-response {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.side-padding-container {
+  width: 100%;
+  padding: 0 16px;
+  position: relative;
+}
+
+.main-wrap {
+  margin: 76px 0 0;
+  overflow-x: clip;
+}
+
+html {
+  background: #F2F5F3;
+}
+
+.otgs-development-site-front-end {
+  display: none;
+}
+
+@media (min-width: 744px) {
+  section {
+    margin: 124px 0;
+  }
+
+  .side-padding-container {
+    padding: 0 32px;
+  }
+
+  .main-wrap {
+    margin: 88px 0 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  section {
+    margin: 128px 0;
+  }
+
+  .mobile-only {
+    display: none !important;
+  }
+
+  .side-padding-container {
+    padding: 0 48px;
+  }
+
+  .main-wrap {
+    margin: 64px 0 0;
+  }
+}
+
+@media (min-width: 1920px) {
+  section {
+    margin: 140px 0;
+  }
+
+  .side-padding-container {
+    padding: 0 64px;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: clip;
+  }
+
+  .main-wrap {
+    margin: 91px 0 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .pc-only {
+    display: none !important;
+  }
+}

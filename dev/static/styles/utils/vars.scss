@@ -1,0 +1,38 @@
+// Colors
+$white: #F2F5F3;
+$light-grey: #E0E4E4;
+$green: #A6EA79;
+$light-green: #A6EA794D;
+$dark-grey: #42454A;
+$black: #161D1C;
+$red: #EA7979;
+
+//media
+$full-hd:   1920px;
+$lg:        1440px;
+$pc:        1280px;
+$sm-pc:     1024px;
+$tablet:    968px;
+$sm-tablet: 744px;
+$lg-mob:    600px;
+$mob:       480px;
+$se:        360px;
+$i5:        320px;
+
+// Side Padding Container
+
+$mob-pad: 16px;
+$tab-pad: 32px;
+$lap-pad: 48px;
+$hd-pad:  64px;
+
+$mob-pad-: -16px;
+$tab-pad-: -32px;
+$lap-pad-: -48px;
+$hd-pad-:  -64px;
+
+// transition
+
+$transFast: all 0.1s ease-in-out;
+$trans: all 0.2s ease-in-out;
+$transSlow: all 0.4s ease-in-out;
